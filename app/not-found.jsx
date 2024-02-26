@@ -19,7 +19,7 @@ const NotFound = async () => {
                             </p>
                         </div>
                         <Link href='/'>
-                            <Button className='mt-5 shadow'>
+                            <Button className='bg-primaryColor hover:bg-primaryColor/90 dark:bg-primaryColorDark dark:hover:bg-primaryColorDark text-textColor dark:text-textColor mt-5 shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-700'>
                                 Back to home
                             </Button>
                         </Link>
