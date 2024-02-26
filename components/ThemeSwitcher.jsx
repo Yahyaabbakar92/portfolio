@@ -18,7 +18,7 @@ export function ThemeSwitcher() {
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
                 <Button
-                    variant='outline'
+                    variant='ghost'
                     size='icon'
                     className='focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-700'
                 >
