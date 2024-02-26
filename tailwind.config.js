@@ -30,8 +30,8 @@ module.exports = {
             colors: {
                 textColor: '#333333',
                 textColorDark: '#CCCCCC',
-                backgroundColor: '#FFFFFF',
-                backgroundColorDark: '#000000',
+                backgroundColor: '#EDF1F2',
+                backgroundColorDark: '#0D1112',
                 primaryColor: '#28AF60',
                 primaryColorDark: '#50D789',
                 secondaryColor: '#354A5F',
