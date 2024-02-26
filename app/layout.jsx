@@ -1,8 +1,13 @@
-import { Inter } from 'next/font/google'
+import { Archivo } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from '../components/partials/providers'
+import Header from '@/components/partials/Header'
+import { Suspense } from 'react'
+import Loading from './loading'
+import SmoothScrolling from '@/components/SmoothScrolling'
+import Footer from '@/components/partials/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const archivo = Archivo({ subsets: ['latin'] })
 
 export const metadata = {
     title: 'Create Next App',
@@ -12,14 +17,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang='en' suppressHydrationWarning>
-            <body className={inter.className}>
+            <body className={archivo.className}>
                 <ThemeProvider
                     attribute='class'
                     defaultTheme='system'
                     enableSystem
                     disableTransitionOnChange
                 >
-                    {children}
+                    <Header />
+                    <Suspense fallback={<Loading />}>
+                        <SmoothScrolling>{children}</SmoothScrolling>
+                    </Suspense>
+                    <Footer />
                 </ThemeProvider>
             </body>
         </html>

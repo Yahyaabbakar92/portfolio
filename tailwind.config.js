@@ -9,6 +9,20 @@ module.exports = {
     ],
     prefix: '',
     theme: {
+        extend: {
+            colors: {
+                textColor: '#333333',
+                textColorDark: '#CCCCCC',
+                backgroundColor: '#EDF1F2',
+                backgroundColorDark: '#0D1112',
+                primaryColor: '#28AF60',
+                primaryColorDark: '#50D789',
+                secondaryColor: '#354A5F',
+                secondaryColorDark: '#A0B5CA',
+                accentColor: '#FEE716',
+                accentColorDark: '#E9D201'
+            }
+        },
         container: {
             center: true,
             padding: '2rem',

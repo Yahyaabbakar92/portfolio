@@ -1,0 +1,30 @@
+{
+    "main": [
+        {
+        "name": "Projects",
+        "url": "/projects"
+    },
+    {
+        "name": "About",
+        "url": "/about"
+    },
+    {
+        "name": "Connect",
+        "url": "#connect"
+    }
+    ],
+    "footer": [
+        {
+        "name": "LinkedIn",
+        "url": "/https://www.linkedin.com/in/yahya-abbakar/"
+    },
+    {
+        "name": "Twitter/X",
+        "url": "/https://twitter.com/yahyaabbakar3"
+    },
+    {
+        "name": "Github",
+        "url": "/https://github.com/Yahyaabbakar92"
+    }
+    ]
+}
