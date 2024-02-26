@@ -1,3 +1,5 @@
+import { Button } from '@/components/ui/button'
+
 export default function page() {
     return (
         <section className='relative px-3 py-5 lg:px-10'>

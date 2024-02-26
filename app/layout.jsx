@@ -1,4 +1,4 @@
-import { Archivo } from 'next/font/google'
+import { Archivo as FontSans } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from '../components/partials/providers'
 import Header from '@/components/partials/Header'
@@ -6,8 +6,12 @@ import { Suspense } from 'react'
 import Loading from './loading'
 import SmoothScrolling from '@/components/SmoothScrolling'
 import Footer from '@/components/partials/Footer'
+import { cn } from '@/lib/utils'
 
-const archivo = Archivo({ subsets: ['latin'] })
+export const fontSans = FontSans({
+    subsets: ['latin'],
+    variable: '--font-sans'
+})
 
 export const metadata = {
     title: 'Create Next App',
@@ -17,7 +21,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang='en' suppressHydrationWarning>
-            <body className={archivo.className}>
+            <body
+                className={cn(
+                    'bg-background min-h-screen font-sans antialiased',
+                    fontSans.variable
+                )}
+            >
                 <ThemeProvider
                     attribute='class'
                     defaultTheme='system'
