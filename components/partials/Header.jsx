@@ -18,7 +18,7 @@ export default function Header() {
                             <ThemeSwitcher />
                             {main.map((navList) => (
                                 <Link key={navList.name} href={navList.url}>
-                                    <li className='items-center px-3 py-2 text-lg leading-snug'>
+                                    <li className='items-center px-3 py-2 text-lg leading-snug hover:text-textColor/90 dark:hover:text-textColorDark/90'>
                                         {navList.name}
                                     </li>
                                 </Link>
