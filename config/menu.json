@@ -2,7 +2,7 @@
     "main": [
         {
         "name": "Projects",
-        "url": "/projects"
+        "url": "/#projects"
     },
     {
         "name": "About",
@@ -10,7 +10,7 @@
     },
     {
         "name": "Connect",
-        "url": "#connect"
+        "url": "/#connect"
     }
     ],
     "footer": [
