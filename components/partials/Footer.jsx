@@ -15,10 +15,10 @@ export default function Footer() {
                         </p>
                     </div>
                     <div className='flex flex-grow items-center'>
-                        <ul className='flex list-none items-center lg:ml-auto'>
+                        <ul className='grid list-none grid-cols-2 gap-x-8 pr-6 md:grid-cols-4 lg:ml-auto lg:gap-x-2'>
                             {footer.map((navList) => (
                                 <Link key={navList.name} href={navList.url}>
-                                    <li className='items-center px-3 py-2 text-lg leading-snug hover:text-textColor/90 dark:hover:text-textColorDark/90'>
+                                    <li className='items-center px-3 py-2 text-lg leading-snug hover:text-textColor/90 hover:underline dark:hover:text-textColorDark/90'>
                                         {navList.name}
                                     </li>
                                 </Link>
