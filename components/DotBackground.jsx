@@ -12,13 +12,14 @@ export function DotBackground() {
                         Hey,
                     </span>
                     <span className='block transform-none opacity-100'>
-                        Im Yahya
+                        I'm Yahya
                     </span>
                 </HeroHeadingTextAnimation>
                 <div className='transform-none opacity-100'>
                     <HeroSubHeadingTextAnimation>
-                        — a web developer and freelancer crafting web apps that
-                        help businesses stand out and attract more clients.
+                        — a web developer and freelancer crafting web apps &
+                        websites that help businesses stand out and attract more
+                        clients.
                     </HeroSubHeadingTextAnimation>
                 </div>
             </div>
