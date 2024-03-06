@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
-const NotFound = async () => {
+export default async function NotFound() {
     return (
         <>
             <section className='container text-center'>
@@ -19,7 +19,7 @@ const NotFound = async () => {
                             </p>
                         </div>
                         <Link href='/'>
-                            <Button className='bg-primaryColor hover:bg-primaryColor/90 dark:bg-primaryColorDark dark:hover:bg-primaryColorDark text-textColor dark:text-textColor mt-5 shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-700'>
+                            <Button className='mt-5 bg-primaryColor text-textColor shadow hover:bg-primaryColor/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-700 dark:bg-primaryColorDark dark:text-textColor dark:hover:bg-primaryColorDark/90'>
                                 Back to home
                             </Button>
                         </Link>
@@ -29,5 +29,3 @@ const NotFound = async () => {
         </>
     )
 }
-
-export default NotFound
