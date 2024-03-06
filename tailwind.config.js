@@ -81,7 +81,8 @@ module.exports = {
                     type: 'color'
                 }
             )
-        }
+        },
+        require('@tailwindcss/typography')
     ]
 }
 
