@@ -15,6 +15,10 @@
     ],
     "footer": [
         {
+            "name": "Blogs",
+        "url": "/blogs"
+        },
+        {
         "name": "LinkedIn",
         "url": "/https://www.linkedin.com/in/yahya-abbakar/"
     },
