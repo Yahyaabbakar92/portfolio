@@ -1,4 +1,5 @@
-import { Archivo as FontSans } from 'next/font/google'
+import { Open_Sans as FontSans } from 'next/font/google'
+// import { Archivo as FontSans } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from '../components/partials/providers'
 import Header from '@/components/partials/Header'
