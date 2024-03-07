@@ -1,28 +1,9 @@
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
+import { getPosts } from '@/lib/getBlogData'
 import Link from 'next/link'
 
-export default function Blogs() {
-    // 1) Set blogs directory
-    const blogDir = 'content/blogs'
-    // 2) Find all files in the blog directory
-    const files = fs.readdirSync(path.join(blogDir))
-    // 3) For each blog found
-    const blogs = files.map((filename) => {
-        // 4) Read the content of that blog
-        const fileContent = fs.readFileSync(
-            path.join(blogDir, filename),
-            'utf-8'
-        )
-        // 5) Extract the metadata from the blog's content
-        const { data: frontMatter } = matter(fileContent)
-        // 6) Return the metadata and page slug
-        return {
-            meta: frontMatter,
-            slug: filename.replace('.mdx', '')
-        }
-    })
+export default async function Blogs() {
+    const blogs = await getPosts()
+
     return (
         <section className='relative px-3 py-5 text-textColor dark:text-textColorDark lg:px-10'>
             <div className='container mx-auto px-5 md:px-24'>
