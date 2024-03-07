@@ -11,7 +11,7 @@ export default function HeroHeadingTextAnimation({ children }) {
                 ease: 'easeIn',
                 duration: 0.4
             }}
-            className='relative z-20 bg-gradient-to-b from-backgroundColor to-backgroundColorDark bg-clip-text py-8 text-4xl font-bold text-transparent transition-all duration-300 dark:bg-gradient-to-b dark:from-neutral-200 dark:to-neutral-500 sm:max-w-[520px] sm:text-7xl'
+            className='relative z-20 bg-gradient-to-b from-backgroundColor to-backgroundColorDark bg-clip-text py-8 font-bold text-transparent transition-all duration-300 dark:bg-gradient-to-b dark:from-neutral-200 dark:to-neutral-500 sm:max-w-[520px]'
         >
             {children}
         </motion.h1>
