@@ -1,0 +1,46 @@
+[
+    {
+        "title": "E-commerce Website",
+        "description": "Built a fully functional e-commerce website using React and Redux.",
+        "image": "ecommerce.png",
+        "technologies": ["React", "Redux", "Node.js", "Express.js"],
+        "category": "Website",
+        "url": "/projects/ecommerce",
+        "github": "https://github.com/example/ecommerce",
+        "dateCompleted": "2023-06-15",
+        "className": "md:col-span-2"
+    },
+    {
+        "title": "Portfolio Website",
+        "description": "Designed and developed my personal portfolio website using Next.js.",
+        "image": "portfolio.png",
+        "technologies": ["Next.js", "Tailwind CSS"],
+        "category": "Website",
+        "url": "https://example.com/portfolio",
+        "github": "https://github.com/example/portfolio",
+        "dateCompleted": "2023-09-20",
+        "className": "md:col-span-1"
+    },
+    {
+        "title": "Portfolio Website",
+        "description": "Designed and developed my personal portfolio website using Next.js.",
+        "image": "portfolio.png",
+        "technologies": ["Next.js", "Tailwind CSS"],
+        "category": "Webapp",
+        "url": "https://example.com/portfolio",
+        "github": "https://github.com/example/portfolio",
+        "dateCompleted": "2023-09-20",
+        "className": "md:col-span-1"
+    },
+    {
+        "title": "Portfolio Website",
+        "description": "Designed and developed my personal portfolio website using Next.js.",
+        "image": "portfolio.png",
+        "technologies": ["Next.js", "Tailwind CSS"],
+        "category": "Webapp",
+        "url": "https://example.com/portfolio",
+        "github": "https://github.com/example/portfolio",
+        "dateCompleted": "2023-09-20",
+        "className": "md:col-span-2"
+    }
+]  
