@@ -1,5 +1,5 @@
 import { getProjects } from '@/lib/getProjects'
-import { BentoGridTwoColumn } from './BentoGridTwoColumn'
+import Projects from './Projects'
 
 export default async function ProjectsList() {
     const projects = await getProjects()
@@ -7,7 +7,7 @@ export default async function ProjectsList() {
     return (
         <section id='projects'>
             <h1 className='mb-14 text-5xl font-bold md:mt-14'>My Work</h1>
-            <BentoGridTwoColumn projects={projects} />
+            <Projects projects={projects} />
         </section>
     )
 }
