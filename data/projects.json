@@ -1,42 +1,54 @@
 [
     {
+        "id": 1,
         "title": "E-commerce Website",
         "description": "Built a fully functional e-commerce website using React and Redux.",
-        "image": "ecommerce.png",
+        "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600",
+        "alt": "Photo by Minh Pham",
         "technologies": ["React", "Redux", "Node.js", "Express.js"],
         "category": "Website",
         "url": "/projects/ecommerce",
         "github": "https://github.com/example/ecommerce",
-        "dateCompleted": "2023-06-15"
+        "dateCompleted": "2023-06-15",
+        "className": "group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
     },
     {
+        "id": 2,
         "title": "Portfolio Website",
         "description": "Designed and developed my personal portfolio website using Next.js.",
-        "image": "portfolio.png",
+        "image": "https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=1000",
+        "alt": "Photo by Magicle",
         "technologies": ["Next.js", "Tailwind CSS"],
         "category": "Website",
-        "url": "https://example.com/portfolio",
+        "url": "/projects/portfolio",
         "github": "https://github.com/example/portfolio",
-        "dateCompleted": "2023-09-20"
+        "dateCompleted": "2023-09-20",
+        "className": "group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
     },
     {
+        "id": 3,
         "title": "Portfolio Website",
         "description": "Designed and developed my personal portfolio website using Next.js.",
-        "image": "portfolio.png",
+        "image": "https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=1000",
+        "alt": "Photo by Martin Sanchez",
         "technologies": ["Next.js", "Tailwind CSS"],
         "category": "Webapp",
-        "url": "https://example.com/portfolio",
+        "url": "/projects/portfolio",
         "github": "https://github.com/example/portfolio",
-        "dateCompleted": "2023-09-20"
+        "dateCompleted": "2023-09-20",
+        "className": "group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
     },
     {
+        "id": 4,
         "title": "Portfolio Website",
         "description": "Designed and developed my personal portfolio website using Next.js.",
-        "image": "portfolio.png",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600",
+        "alt": "Photo by Lorenzo Herrera",
         "technologies": ["Next.js", "Tailwind CSS"],
         "category": "Webapp",
-        "url": "https://example.com/portfolio",
+        "url": "/projects/ecommerce",
         "github": "https://github.com/example/portfolio",
-        "dateCompleted": "2023-09-20"
+        "dateCompleted": "2023-09-20",
+        "className": "group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
     }
 ]  
