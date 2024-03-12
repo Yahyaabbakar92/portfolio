@@ -6,7 +6,9 @@ export default async function ProjectsList() {
 
     return (
         <section id='projects'>
-            <h1 className='mb-14 text-5xl font-bold md:mt-14'>My Work</h1>
+            <h1 className='mb-14 text-5xl font-bold md:ml-8 md:mt-14'>
+                My Work
+            </h1>
             <Projects projects={projects} />
         </section>
     )
