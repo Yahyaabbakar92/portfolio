@@ -10,7 +10,7 @@
         "url": "/projects/ecommerce",
         "github": "https://github.com/example/ecommerce",
         "dateCompleted": "2023-06-15",
-        "className": "group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
+        "className": "md:col-span-1"
     },
     {
         "id": 2,
@@ -23,7 +23,7 @@
         "url": "/projects/portfolio",
         "github": "https://github.com/example/portfolio",
         "dateCompleted": "2023-09-20",
-        "className": "group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
+        "className": "md:col-span-1"
     },
     {
         "id": 3,
@@ -36,7 +36,7 @@
         "url": "/projects/portfolio",
         "github": "https://github.com/example/portfolio",
         "dateCompleted": "2023-09-20",
-        "className": "group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
+        "className": "md:col-span-1"
     },
     {
         "id": 4,
@@ -49,6 +49,19 @@
         "url": "/projects/ecommerce",
         "github": "https://github.com/example/portfolio",
         "dateCompleted": "2023-09-20",
-        "className": "group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
+        "className": "md:col-span-2"
+    },
+    {
+        "id": 5,
+        "title": "Portfolio Website",
+        "description": "Designed and developed my personal portfolio website using Next.js.",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600",
+        "alt": "Photo by Lorenzo Herrera",
+        "technologies": ["Next.js", "Tailwind CSS"],
+        "category": "Webapp",
+        "url": "/projects/ecommerce",
+        "github": "https://github.com/example/portfolio",
+        "dateCompleted": "2023-09-20",
+        "className": "md:col-span-1"
     }
 ]  
